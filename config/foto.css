@@ -1,0 +1,121 @@
+.wrapper__foto {
+    margin-top: 150px;
+    display: flex;
+}
+.wraperr__foto__img {
+    max-width: 895px;
+}
+.wraperr__foto__img img {
+    width: 100%;
+}
+.wraperr__foto__img p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.wraperr__foto__img article {
+    margin-top: 10px;
+}
+.wraperr__foto__btns {
+    padding-top: 10%;
+    margin-left: 20px;
+}
+.foto__btn__pay {
+    width: 285px;
+    height: 50px;
+    line-height: 50px;
+    background: #DF8E75;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    color: #18181A;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.foto__btn__favourites {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    width: 285px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #F3F3F4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
+    color: #F3F3F4;
+    cursor: pointer;
+}
+.foto__btn__favourites img {
+    width: 18px;
+    margin: 5px 5px 0;
+}
+.foto__type {
+    margin-top: 25px;
+    display: flex;
+}
+.foto__type p {
+    line-height: 25px;
+    margin-left: 5px;
+}
+.wrapper__avtor {
+    margin: 20px 0;
+}
+.wrapper__avtor span {
+    font-weight: bold;
+}
+.wrapper__other_foto {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2 {
+    font-size: 20px;
+    margin: 30px 0 20px;
+}
+.other_foto__elem {
+    width: 200px;
+    margin-right: 20px;
+}
+.other_foto__elem img {
+    width: 100%;
+}
+@media (max-width:960px) {
+    .wrapper__foto {
+        margin-top: 150px;
+        display: block;
+    }
+    .wraperr__foto__img {
+        width: 100%;
+        max-width: 895px;
+    }
+    .foto__btn__pay {
+        width: 100%;
+        max-width: 450px;
+        margin: auto;
+    }
+    .foto__btn__favourites {
+        width: 100%;
+        max-width: 450px;
+        margin: 17px auto;
+    }
+    .foto__type {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper__avtor {
+        margin: 50px 0;
+    }
+}
+@media (max-width:560px) {
+    .other_foto__elem {
+        width: 48%;
+        margin-right: 0;
+    }
+    .wrapper__other_foto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
